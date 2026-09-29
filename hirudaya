@@ -1,0 +1,125 @@
+🫀 HIRUDAYA – Intelligent Wearable Health Monitoring System
+
+ 🚀 Smart India Hackathon 2026
+
+**Problem Statement ID:** SIH26181  
+**Theme:** MedTech / BioTech / HealthTech  
+**PS Category:** Hardware
+
+---
+
+Project Overview
+
+HIRUDAYA is an intelligent wearable platform designed for **real-time cardiac monitoring and remote healthcare**.
+
+The system continuously monitors important health parameters and provides early warnings when abnormal conditions are detected. It is designed to support patients, elderly people, rural communities, and people affected by disasters such as floods, heatwaves, and pollution events.
+
+The system focuses on **on-device intelligence, privacy-preserving monitoring, and early warning** without depending completely on cloud connectivity.
+
+---
+
+ 🎯 Problem Statement
+
+A secure, AI-powered Personal Health Companion is required to provide:
+
+- Real-time health monitoring
+- Privacy-preserving health data processing
+- Early warning of potential health risks
+- Continuous health support
+- Disaster-resilient healthcare
+- Remote monitoring for patients and doctors
+
+The system should remain useful during situations such as:
+
+- 🌡️ Heat waves
+- 🌊 Floods
+- 🌫️ Pollution events
+- 🚨 Other disaster conditions
+
+---
+
+💡 Proposed Solution
+
+HIRUDAYA is a smart wearable health companion that:
+
+- ❤️ Continuously monitors cardiac health
+- 📊 Processes health data locally
+- ⚠️ Detects abnormal heart activity
+- 🔔 Provides instant alerts
+- 📡 Sends encrypted alerts when connectivity is available
+- 👨‍⚕️ Supports remote healthcare monitoring
+- 🔒 Protects sensitive patient information
+
+---
+
+ ✨ Key Features
+
+❤️ Real-Time Cardiac Monitoring
+Continuous monitoring of ECG, heart rate and SpO₂.
+
+🧠 Edge Intelligence
+Health data can be processed directly on the device instead of relying completely on cloud servers.
+
+ 🚨 Early Warning System
+The system identifies abnormal health conditions and provides alerts before the situation becomes critical.
+
+ 📶 Remote Healthcare
+Encrypted health alerts can be transmitted to doctors for remote monitoring.
+
+🌊 Disaster Resilience
+The system is designed to remain useful in rural and disaster-affected areas where internet connectivity may be unreliable.
+
+ 🔐 Privacy-Preserving Architecture
+Raw health data can remain on the device, while only required encrypted alerts are transmitted.
+
+---
+ 🛠️ Technologies Used
+
+Hardware
+
+- ESP8266
+- ECG Sensor
+- SpO₂ / Heart Rate Sensor
+- Temperature Sensor
+- OLED Display
+- Buzzer
+- Battery
+
+Software
+
+- Embedded C
+- Arduino
+- HTML
+- CSS
+- JavaScript
+- Chart.js
+
+---
+
+ 🔄 Working Principle
+
+```text
+        ┌─────────────────────┐
+        │      SENSE          │
+        │  Health Sensors     │
+        └──────────┬──────────┘
+                   ↓
+        ┌─────────────────────┐
+        │      PROCESS        │
+        │ Edge Intelligence   │
+        └──────────┬──────────┘
+                   ↓
+        ┌─────────────────────┐
+        │       WARN          │
+        │ OLED + Buzzer Alert │
+        └──────────┬──────────┘
+                   ↓
+        ┌─────────────────────┐
+        │     TRANSMIT        │
+        │ Encrypted Alerts    │
+        └──────────┬──────────┘
+                   ↓
+        ┌─────────────────────┐
+        │      MONITOR        │
+        │ Doctor Dashboard    │
+        └─────────────────────┘
